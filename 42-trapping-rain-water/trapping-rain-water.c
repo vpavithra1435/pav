@@ -1,6 +1,3 @@
- #include <stdio.h>
-#include <stdlib.h>
-
 int trap(int* height, int heightSize) {
     if (heightSize == 0) return 0;
 
@@ -22,4 +19,3 @@ int trap(int* height, int heightSize) {
 
     return sum;
 }
-
